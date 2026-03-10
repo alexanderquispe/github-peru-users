@@ -30,7 +30,7 @@ else:
         img_path = os.path.join(PLOTS_DIR, filename)
         if os.path.exists(img_path):
             st.header(title)
-            st.image(img_path, use_container_width=True)
+            st.image(img_path, use_column_width=True)
             st.info(description)
         else:
             st.warning(f"⚠️ Figure '{filename}' not found.")
