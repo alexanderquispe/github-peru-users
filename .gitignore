@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+plots/
+peru_users_100.csv
+peru_repos_10users.csv
+.DS_Store
